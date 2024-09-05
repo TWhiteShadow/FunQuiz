@@ -1,0 +1,11 @@
+{
+  "name": "sass-docker-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build:sass": "sass src/scss/style.scss src/css/style.css",
+    "watch": "sass --watch src/scss:src/css"
+  },
+  "devDependencies": {
+    "sass": "^1.64.0"
+  }
+}

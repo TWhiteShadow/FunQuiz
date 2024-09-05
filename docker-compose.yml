@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  node:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 8003:3000
