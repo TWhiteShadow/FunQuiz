@@ -21,4 +21,3 @@ const settings = {
 const progressBar = document.querySelector('.progressBar');
 progressBar.value = settings.etape;
 console.log(progressBar);
-
