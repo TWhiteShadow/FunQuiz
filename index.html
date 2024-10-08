@@ -8,21 +8,18 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css">
     <script src="script.js" defer></script>
-    <title>Hello world!</title>
+    <title>Fun Quiz ! 🏎️💨</title>
 </head>
 
 <body>
     <main class="container">
-        <h1>Fun Quiz</h1>
-        <progress class="progressBar" value="3" max="9"> </progress>
-        <h3>Vrai ou faux : sur Neptune, le vent peut souffler à plus de 2000 km/h?</h3>
-        <fieldset>
-            <label><input type="radio" name="action">Vrai</label>
-            <label><input type="radio" name="action">Faux</label>
-            <br>
+        <h1>🏎️💨 Fun Quiz - Question <span id="currentQuestion">1</span> / 10</h1>
+        <progress class="progressBar" value="0" max="9"></progress>
+        <h3 id="question"></h3>
+        <fieldset id="choices">
         </fieldset>
-        <input type="submit" value="Continuer">
-    </main>
+        <input disabled type="submit" value="Continuer" id="nextBtn">
+    </main>    
 </body>
 
 </html>

@@ -1,3 +1,15 @@
+body {
+  display: flex;
+  min-height: 100dvh;
+}
 
+.container {
+  margin: auto !important;
+}
+
+fieldset {
+  max-height: 300px;
+  overflow-y: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
